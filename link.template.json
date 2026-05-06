@@ -1,0 +1,7 @@
+{
+  "name": "站点名称",
+  "url": "https://example.com/",
+  "avatar": "https://example.com/avatar.png",
+  "description": "一句话介绍你的站点",
+  "tags": ["技术", "生活"]
+}
