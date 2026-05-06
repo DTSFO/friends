@@ -1,0 +1,48 @@
+name: 友链申请
+description: 申请加入 DTSFO Blog 友链
+labels: [friend-link]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 站名
+      placeholder: DTSFO Blog
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 链接
+      placeholder: https://blog.dtsfo.ccwu.cc/
+    validations:
+      required: true
+  - type: input
+    id: avatar
+    attributes:
+      label: 头像或站点图标
+      placeholder: https://example.com/avatar.png
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: 简介
+      placeholder: 一句话说明站点主题与长期方向
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: 标签
+      placeholder: 技术, 生活
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认
+      options:
+        - label: 我的网站可稳定访问且支持 HTTPS
+          required: true
+        - label: 我已在自己的站点加入 DTSFO Blog
+          required: true
